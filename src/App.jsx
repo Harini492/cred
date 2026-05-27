@@ -202,22 +202,22 @@ function Hero() {
       <div className="hero-card animate-float">
         <div className="glass-panel" style={{ padding: '20px 24px', display: 'flex', alignItems: 'center', gap: 16, minWidth: 280 }}>
           <div style={{ width: 44, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <span style={{ fontSize: 8, fontFamily: '"JetBrains Mono"", monospace', fontWeight: 500, color: '#000', letterSpacing: 2 }}>CRED</span>
+            <span style={{ fontSize: 8, fontFamily: "'JetBrains Mono', monospace", fontWeight: 500, color: '#000', letterSpacing: 2 }}>CRED</span>
           </div>
           <div>
             <p style={{ color: '#f0ede6', fontSize: 13, fontWeight: 500 }}>₹3,240 Cashback Earned</p>
-            <p style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.1em', marginTop: 3, fontFamily: '"JetBrains Mono"", monospace' }}>This month · 4 payments</p>
+            <p style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.1em', marginTop: 3, fontFamily: "'JetBrains Mono', monospace" }}>This month · 4 payments</p>
           </div>
           <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 6 }}>
             <div style={{ width: 6, height: 6, background: '#4ade80', borderRadius: '50%', animation: 'pulse 2s infinite' }} />
-            <span style={{ color: '#4ade80', fontSize: 10, fontFamily: '"JetBrains Mono"", monospace' }}>Live</span>
+            <span style={{ color: '#4ade80', fontSize: 10, fontFamily: "'JetBrains Mono', monospace" }}>Live</span>
           </div>
         </div>
       </div>
 
       {/* Scroll indicator */}
       <div style={{ position: 'absolute', bottom: 36, left: '50%', transform: 'translateX(-50%)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, opacity: 0.4 }}>
-        <span style={{ fontSize: 9, letterSpacing: '0.3em', color: '#6b6b6b', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace' }}>Scroll</span>
+        <span style={{ fontSize: 9, letterSpacing: '0.3em', color: '#6b6b6b', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>Scroll</span>
         <div style={{ width: 1, height: 48, background: 'linear-gradient(to bottom, #c9a84c, transparent)', animation: 'pulse 2s infinite' }} />
       </div>
     </section>
@@ -235,7 +235,7 @@ function Marquee() {
           <React.Fragment key={`${item}-${i}`}>
             <span style={{
               fontSize: 11, letterSpacing: '0.25em', textTransform: 'uppercase',
-              fontFamily: "'JetBrains Mono',monospace",
+              fontFamily: "'JetBrains Mono', monospace",
               color: '#6b6b6b',
             }}>{item}</span>
             {i !== repeated.length - 1 && <FiStar className="marquee-sep" />}
@@ -256,9 +256,9 @@ function About() {
         <div className="reveal-left">
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 28 }}>
             <div style={{ width: 40, height: 1, background: 'linear-gradient(to right, #c9a84c, transparent)' }} />
-            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace' }}>About CRED</span>
+            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>About CRED</span>
           </div>
-          <h2 style={{ fontFamily: '"Space Grotesk"", sans-serif', fontWeight: 300, fontSize: 'clamp(48px,6vw,80px)', lineHeight: 0.95, marginBottom: 28, color: '#f0ede6' }}>
+          <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 300, fontSize: 'clamp(48px,6vw,80px)', lineHeight: 0.95, marginBottom: 28, color: '#f0ede6' }}>
             Exclusivity<br />is <span className="shimmer">earned,</span><br />not given.
           </h2>
           <p style={{ color: '#6b6b6b', fontSize: 16, lineHeight: 1.8, marginBottom: 20, fontWeight: 300 }}>
@@ -269,7 +269,7 @@ function About() {
           </p>
           <div style={{ marginTop: 36, display: 'flex', alignItems: 'center', gap: 12 }}>
             <div style={{ width: 32, height: 1, background: '#c9a84c' }} />
-            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace' }}>Invitation Only</span>
+            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>Invitation Only</span>
           </div>
         </div>
 
@@ -296,15 +296,15 @@ function About() {
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 36 }}>
               <div style={{ width: 42, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', boxShadow: '0 0 14px rgba(201,168,76,0.4)' }} />
-              <span style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', fontFamily: '"JetBrains Mono"", monospace' }}>CRED</span>
+              <span style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', fontFamily: "'JetBrains Mono', monospace" }}>CRED</span>
             </div>
-            <div style={{ fontFamily: '"JetBrains Mono"", monospace', color: '#f0ede6', fontSize: 13, letterSpacing: '0.2em', marginBottom: 20 }}>•••• •••• •••• 4291</div>
+            <div style={{ fontFamily: "'JetBrains Mono', monospace", color: '#f0ede6', fontSize: 13, letterSpacing: '0.2em', marginBottom: 20 }}>•••• •••• •••• 4291</div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
               <div>
-                <div style={{ color: '#6b6b6b', fontSize: 8, letterSpacing: '0.25em', textTransform: 'uppercase', marginBottom: 4, fontFamily: '"JetBrains Mono"", monospace' }}>Member</div>
+                <div style={{ color: '#6b6b6b', fontSize: 8, letterSpacing: '0.25em', textTransform: 'uppercase', marginBottom: 4, fontFamily: "'JetBrains Mono', monospace" }}>Member</div>
                 <div style={{ color: '#f0ede6', fontSize: 12, fontWeight: 500 }}>Arjun Mehta</div>
               </div>
-              <div style={{ color: 'rgba(201,168,76,0.5)', fontFamily: '"JetBrains Mono"", monospace', fontSize: 11, letterSpacing: 2 }}>VISA</div>
+              <div style={{ color: 'rgba(201,168,76,0.5)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 2 }}>VISA</div>
             </div>
           </div>
         </div>
@@ -319,8 +319,8 @@ function About() {
           { num: '4.9', suf: '★', label: 'App Store Rating' },
         ].map((s, i) => (
           <div key={i} style={{ textAlign: 'center' }}>
-            <div className="shimmer" style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 52, fontWeight: 300, lineHeight: 1 }}>{s.num}{s.suf}</div>
-            <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', marginTop: 8, fontFamily: '"JetBrains Mono"", monospace' }}>{s.label}</div>
+            <div className="shimmer" style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 52, fontWeight: 300, lineHeight: 1 }}>{s.num}{s.suf}</div>
+            <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', marginTop: 8, fontFamily: "'JetBrains Mono', monospace" }}>{s.label}</div>
           </div>
         ))}
       </div>
@@ -392,7 +392,7 @@ function NeoPOPSection() {
             marginTop: 32, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)',
             color: '#000', border: 'none', padding: '14px 32px',
             fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase',
-            fontFamily: '"JetBrains Mono"", monospace', fontWeight: 500, borderRadius: 2,
+            fontFamily: "'JetBrains Mono', monospace", fontWeight: 500, borderRadius: 2,
           }}>Explore Design System</button>
         </div>
 
@@ -409,15 +409,15 @@ function NeoPOPSection() {
               <div style={{ width: 38, height: 38, borderRadius: '50%', background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontSize: 14, boxShadow: '0 0 16px rgba(201,168,76,0.3)' }}><FiStar /></div>
               <div style={{ flex: 1 }}>
                 <p style={{ color: '#f0ede6', fontSize: 13, fontWeight: 500 }}>Reward Unlocked!</p>
-                <p style={{ color: '#6b6b6b', fontSize: 11, marginTop: 2, fontFamily: '"JetBrains Mono"", monospace' }}>250 CRED coins credited</p>
+                <p style={{ color: '#6b6b6b', fontSize: 11, marginTop: 2, fontFamily: "'JetBrains Mono', monospace" }}>250 CRED coins credited</p>
               </div>
-              <span style={{ color: '#c9a84c', fontFamily: '"Space Grotesk"", sans-serif', fontSize: 22, fontWeight: 600 }}>+250</span>
+              <span style={{ color: '#c9a84c', fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, fontWeight: 600 }}>+250</span>
             </div>
 
             {/* Coin display */}
             <div style={{ textAlign: 'center', padding: '32px 0' }}>
-              <div className="shimmer" style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 72, fontWeight: 300, lineHeight: 1 }}>14,820</div>
-              <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', marginTop: 8, fontFamily: '"JetBrains Mono"", monospace' }}>CRED Coins</div>
+              <div className="shimmer" style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 72, fontWeight: 300, lineHeight: 1 }}>14,820</div>
+              <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', marginTop: 8, fontFamily: "'JetBrains Mono', monospace" }}>CRED Coins</div>
             </div>
 
             {/* Action buttons */}
@@ -426,7 +426,7 @@ function NeoPOPSection() {
                 <button key={i} className="neopop" style={{
                   background: '#161616', border: '1px solid #242424', borderRadius: 10,
                   padding: '12px 8px', color: '#f0ede6', fontSize: 11,
-                  fontFamily: '"JetBrains Mono"", monospace', letterSpacing: '0.1em',
+                  fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.1em',
                   cursor: 'pointer',
                 }}>{btn}</button>
               ))}
@@ -435,8 +435,8 @@ function NeoPOPSection() {
             {/* Score bar */}
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-                <span style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.2em', fontFamily: '"JetBrains Mono"", monospace', textTransform: 'uppercase' }}>Credit Score</span>
-                <span style={{ color: '#c9a84c', fontSize: 10, fontFamily: '"JetBrains Mono"", monospace' }}>812 / 900</span>
+                <span style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.2em', fontFamily: "'JetBrains Mono', monospace", textTransform: 'uppercase' }}>Credit Score</span>
+                <span style={{ color: '#c9a84c', fontSize: 10, fontFamily: "'JetBrains Mono', monospace" }}>812 / 900</span>
               </div>
               <div style={{ height: 4, background: '#1c1c1c', borderRadius: 2, overflow: 'hidden' }}>
                 <div style={{
@@ -455,8 +455,8 @@ function NeoPOPSection() {
             background: 'rgba(8,8,8,0.95)', border: '1px solid rgba(201,168,76,0.25)',
             borderRadius: 12, padding: '12px 16px', backdropFilter: 'blur(20px)',
           }}>
-            <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', fontFamily: '"JetBrains Mono"", monospace', textTransform: 'uppercase' }}>Cashback</div>
-            <div style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 24, fontWeight: 400, color: '#c9a84c' }}>₹840</div>
+            <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', fontFamily: "'JetBrains Mono', monospace", textTransform: 'uppercase' }}>Cashback</div>
+            <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 24, fontWeight: 400, color: '#c9a84c' }}>₹840</div>
           </div>
           <div className="animate-float-slow" style={{
             position: 'absolute', bottom: -16, left: -16,
@@ -465,7 +465,7 @@ function NeoPOPSection() {
             display: 'flex', alignItems: 'center', gap: 8,
           }}>
             <div style={{ width: 6, height: 6, background: '#4ade80', borderRadius: '50%', animation: 'pulse 2s infinite' }} />
-            <span style={{ color: '#f0ede6', fontSize: 11, fontFamily: '"JetBrains Mono"", monospace' }}>Payment secured</span>
+            <span style={{ color: '#f0ede6', fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}>Payment secured</span>
           </div>
         </div>
       </div>
@@ -519,10 +519,10 @@ function Testimonials() {
               onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(201,168,76,0.3)'}
               onMouseLeave={e => e.currentTarget.style.borderColor = '#1c1c1c'}
             >
-              <div className="shimmer" style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 42, fontWeight: 300, lineHeight: 1 }}>
+              <div className="shimmer" style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 42, fontWeight: 300, lineHeight: 1 }}>
                 <Counter target={s.val} suffix={s.suf} decimals={s.dec} active={visible} />
               </div>
-              <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase', marginTop: 8, fontFamily: '"JetBrains Mono"", monospace' }}>{s.label}</div>
+              <div style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase', marginTop: 8, fontFamily: "'JetBrains Mono', monospace" }}>{s.label}</div>
             </div>
           ))}
         </div>
@@ -540,7 +540,7 @@ function Testimonials() {
               <div style={{ display: 'flex', gap: 2, marginBottom: 16 }}>
                 {Array(t.rating).fill(0).map((_, j) => <FiStar key={j} className="rating-star" />)}
               </div>
-              <p style={{ color: '#f0ede6', fontSize: 15, lineHeight: 1.75, marginBottom: 24, fontWeight: 300, fontStyle: 'italic', fontFamily: '"Space Grotesk"", sans-serif' }}>"{t.text}"</p>
+              <p style={{ color: '#f0ede6', fontSize: 15, lineHeight: 1.75, marginBottom: 24, fontWeight: 300, fontStyle: 'italic', fontFamily: "'Space Grotesk', sans-serif" }}>"{t.text}"</p>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, borderTop: '1px solid #1c1c1c', paddingTop: 20 }}>
                 <div style={{
                   width: 38, height: 38, borderRadius: '50%',
@@ -550,7 +550,7 @@ function Testimonials() {
                 }}>{t.avatar}</div>
                 <div>
                   <div style={{ color: '#f0ede6', fontSize: 13, fontWeight: 500 }}>{t.name}</div>
-                  <div style={{ color: '#6b6b6b', fontSize: 10, marginTop: 2, fontFamily: '"JetBrains Mono"", monospace' }}>{t.role}</div>
+                  <div style={{ color: '#6b6b6b', fontSize: 10, marginTop: 2, fontFamily: "'JetBrains Mono', monospace" }}>{t.role}</div>
                 </div>
               </div>
             </div>
@@ -573,9 +573,9 @@ function Testimonials() {
             >
               <span style={{ fontSize: 28 }}>{s.icon}</span>
               <div>
-                <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace', marginBottom: 4 }}>{s.store}</div>
-                <div style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 28, fontWeight: 400, color: '#f0ede6' }}>{s.rating} <span style={{ color: '#c9a84c' }}>★</span></div>
-                <div style={{ color: '#6b6b6b', fontSize: 10, fontFamily: '"JetBrains Mono"", monospace', marginTop: 2 }}>{s.reviews}</div>
+                <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", marginBottom: 4 }}>{s.store}</div>
+                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 28, fontWeight: 400, color: '#f0ede6' }}>{s.rating} <span style={{ color: '#c9a84c' }}>★</span></div>
+                <div style={{ color: '#6b6b6b', fontSize: 10, fontFamily: "'JetBrains Mono', monospace", marginTop: 2 }}>{s.reviews}</div>
               </div>
             </div>
           ))}
@@ -619,9 +619,9 @@ function Security() {
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
                 <span style={{ fontSize: 28 }}>{f.icon}</span>
-                <span style={{ fontSize: 8, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace', color: '#c9a84c', border: '1px solid rgba(201,168,76,0.25)', background: 'rgba(201,168,76,0.06)', padding: '4px 10px', borderRadius: 2 }}>{f.tag}</span>
+                <span style={{ fontSize: 8, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", color: '#c9a84c', border: '1px solid rgba(201,168,76,0.25)', background: 'rgba(201,168,76,0.06)', padding: '4px 10px', borderRadius: 2 }}>{f.tag}</span>
               </div>
-              <h3 style={{ fontFamily: '"Space Grotesk"", sans-serif', fontSize: 22, fontWeight: 400, color: '#f0ede6', marginBottom: 10 }}>{f.title}</h3>
+              <h3 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, fontWeight: 400, color: '#f0ede6', marginBottom: 10 }}>{f.title}</h3>
               <p style={{ color: '#6b6b6b', fontSize: 14, lineHeight: 1.7, fontWeight: 300 }}>{f.desc}</p>
             </div>
           ))}
@@ -632,8 +632,8 @@ function Security() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(140px,1fr))', gap: 32 }}>
             {[['PCI DSS', 'Level 1 Certified'], ['ISO 27001', 'Info Security'], ['RBI', 'Compliant & Licensed'], ['SOC 2', 'Type II Audited']].map(([t, s], i) => (
               <div key={i} style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: '"Space Grotesk"", sans-serif', fontWeight: 400, fontSize: 22, color: '#c9a84c', marginBottom: 4 }}>{t}</div>
-                <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace' }}>{s}</div>
+                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 400, fontSize: 22, color: '#c9a84c', marginBottom: 4 }}>{t}</div>
+                <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>{s}</div>
               </div>
             ))}
           </div>
@@ -661,9 +661,9 @@ function Footer() {
           <div style={{ gridColumn: 'span 2' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
               <div style={{ width: 34, height: 34, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 20px rgba(201,168,76,0.3)' }}>
-                <span style={{ color: '#000', fontFamily: '"Space Grotesk"", sans-serif', fontWeight: 700, fontSize: 16 }}>C</span>
+                <span style={{ color: '#000', fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 16 }}>C</span>
               </div>
-              <span style={{ fontFamily: '"Space Grotesk"", sans-serif', fontWeight: 600, fontSize: 22, color: '#f0ede6', letterSpacing: 4 }}>CRED</span>
+              <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600, fontSize: 22, color: '#f0ede6', letterSpacing: 4 }}>CRED</span>
             </div>
             <p style={{ color: '#6b6b6b', fontSize: 14, lineHeight: 1.7, maxWidth: 220, fontWeight: 300, marginBottom: 24 }}>
               Good things happen to good people. CRED rewards the creditworthy.
@@ -690,7 +690,7 @@ function Footer() {
           {/* Links */}
           {Object.entries(cols).map(([section, links]) => (
             <div key={section}>
-              <h4 style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: '"JetBrains Mono"", monospace', marginBottom: 20 }}>{section}</h4>
+              <h4 style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", marginBottom: 20 }}>{section}</h4>
               <ul style={{ listStyle: 'none' }}>
                 {links.map(link => (
                   <li key={link} style={{ marginBottom: 12 }}>
@@ -725,7 +725,7 @@ function Footer() {
               </a>
             ))}
           </div>
-          <span style={{ color: '#3a3a3a', fontSize: 11, fontFamily: '"JetBrains Mono"", monospace' }}>© 2024 CRED. All rights reserved.</span>
+          <span style={{ color: '#3a3a3a', fontSize: 11, fontFamily: "'JetBrains Mono', monospace" }}>© 2024 CRED. All rights reserved.</span>
         </div>
       </div>
     </footer>
@@ -752,4 +752,7 @@ export default function App() {
     </div>
   )
 }
+
+
+
 
