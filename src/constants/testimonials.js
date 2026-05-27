@@ -1,83 +1,65 @@
-// features.js
-// Cleaner + scalable constant structure
-
-import {
-  CreditCard,
-  Gift,
-  TrendingUp,
-  Smartphone,
-  Coins,
-  Percent,
-} from "lucide-react";
-
-const GOLD = "var(--gold)";
-const GOLD_LIGHT = "var(--gold-light)";
-const GOLD_DARK = "var(--gold-dark, #a87c2a)";
-
-export const features = Object.freeze([
+export const stats = Object.freeze([
   {
-    id: "bill-payments",
-    icon: CreditCard,
-    title: "Bill Payments",
-    subtitle: "Never miss a due date",
-    description:
-      "Manage all your credit card bills in one place with smart reminders and seamless payments.",
-    accent: GOLD,
-    tag: "ZERO FEE",
+    label: "Active Members",
+    value: 12,
+    suffix: "M+",
+    decimals: 0,
   },
-
   {
-    id: "cred-rewards",
-    icon: Gift,
-    title: "CRED Rewards",
-    subtitle: "Exclusive member benefits",
-    description:
-      "Unlock premium rewards, cashback offers, and curated deals from top brands.",
-    accent: GOLD_LIGHT,
-    tag: "EXCLUSIVE",
+    label: "App Store Rating",
+    value: 4.9,
+    suffix: "?",
+    decimals: 1,
   },
-
   {
-    id: "credit-score",
-    icon: TrendingUp,
-    title: "Credit Score",
-    subtitle: "Track your financial health",
-    description:
-      "Monitor and improve your credit score with personalized insights and recommendations.",
-    accent: GOLD_DARK,
-    tag: "FREE",
+    label: "Rewards Given",
+    value: 1200,
+    suffix: "Cr+",
+    decimals: 0,
   },
-
   {
-    id: "upi-payments",
-    icon: Smartphone,
-    title: "UPI Payments",
-    subtitle: "Fast, secure & rewarding",
-    description:
-      "Pay merchants, split bills, and transfer money instantly while earning rewards.",
-    accent: GOLD,
-    tag: "INSTANT",
+    label: "On-time Payments",
+    value: 99,
+    suffix: "%",
+    decimals: 0,
   },
+]);
 
+export const testimonials = Object.freeze([
   {
-    id: "cred-coins",
-    icon: Coins,
-    title: "CRED Coins",
-    subtitle: "Your loyalty, rewarded",
-    description:
-      "Earn coins on every transaction and redeem them for vouchers, rewards, and experiences.",
-    accent: GOLD_LIGHT,
-    tag: "EARN",
+    id: "arjun-mehta",
+    name: "Arjun Mehta",
+    role: "Product Manager, Bengaluru",
+    avatar: "AM",
+    text:
+      "CRED redefined how I manage credit cards. The rewards are incredible, the payments experience is seamless, and the UI feels premium at every step.",
+    rating: 5,
   },
-
   {
-    id: "cashback",
-    icon: Percent,
-    title: "Cashback",
-    subtitle: "Real money back",
-    description:
-      "Get genuine cashback on bill payments, UPI transactions, and partner spends.",
-    accent: GOLD_DARK,
-    tag: "REAL CASH",
+    id: "priya-sharma",
+    name: "Priya Sharma",
+    role: "Architect, Mumbai",
+    avatar: "PS",
+    text:
+      "Being a CRED member genuinely feels exclusive. The cashbacks are real, the spending insights are smart, and the app is beautifully designed.",
+    rating: 5,
+  },
+  {
+    id: "rahul-verma",
+    name: "Rahul Verma",
+    role: "Founder, Delhi",
+    avatar: "RV",
+    text:
+      "I track my credit score weekly now. CRED's insights helped me improve my score by 60 points in just 4 months.",
+    rating: 5,
+  },
+  {
+    id: "sneha-nair",
+    name: "Sneha Nair",
+    role: "Doctor, Hyderabad",
+    avatar: "SN",
+    text:
+      "The UPI flow is seamless, the rewards are meaningful, and every interaction feels polished. This is the best finance app I use.",
+    rating: 5,
   },
 ]);
