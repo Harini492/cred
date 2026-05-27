@@ -179,10 +179,10 @@ const SecurityCard = ({
                 color: "var(--gold)",
 
                 borderColor:
-                  "rgba(201,168,76,0.2)",
+                  "rgba(210,176,90,0.2)",
 
                 background:
-                  "rgba(201,168,76,0.05)",
+                  "rgba(210,176,90,0.05)",
               }}
             >
               {tag}
@@ -276,7 +276,7 @@ const Security = () => {
           "
           style={{
             background:
-              "radial-gradient(circle, rgba(201,168,76,0.4) 0%, transparent 65%)",
+              "radial-gradient(circle, rgba(210,176,90,0.4) 0%, transparent 65%)",
           }}
         />
 
@@ -292,7 +292,7 @@ const Security = () => {
           "
           style={{
             background:
-              "radial-gradient(circle, rgba(201,168,76,0.25) 0%, transparent 70%)",
+              "radial-gradient(circle, rgba(210,176,90,0.25) 0%, transparent 70%)",
           }}
         />
       </div>

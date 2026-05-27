@@ -220,7 +220,7 @@ const Footer = () => {
           background: `
             radial-gradient(
               ellipse,
-              rgba(201,168,76,0.08) 0%,
+              rgba(210,176,90,0.08) 0%,
               transparent 70%
             )
           `,

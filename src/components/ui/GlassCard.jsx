@@ -36,7 +36,7 @@ const GlassCard = ({
       hover:-translate-y-1
       hover:bg-white/[0.05]
       hover:border-[var(--gold)]/30
-      hover:shadow-[0_12px_48px_rgba(201,168,76,0.12)]
+      hover:shadow-[0_12px_48px_rgba(210,176,90,0.12)]
     `
     : "";
 
@@ -84,7 +84,7 @@ const GlassCard = ({
           "
           style={{
             background:
-              "radial-gradient(circle at top, rgba(201,168,76,0.14) 0%, transparent 65%)",
+              "radial-gradient(circle at top, rgba(210,176,90,0.14) 0%, transparent 65%)",
           }}
         />
       )}

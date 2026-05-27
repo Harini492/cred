@@ -143,7 +143,7 @@ const Navbar = () => {
           "
           style={{
             background:
-              "linear-gradient(to bottom, rgba(201,168,76,0.03), transparent)",
+              "linear-gradient(to bottom, rgba(210,176,90,0.03), transparent)",
           }}
         />
 
@@ -182,7 +182,7 @@ const Navbar = () => {
                 bg-gradient-to-br
                 from-[var(--gold-light)]
                 to-[var(--gold)]
-                shadow-[3px_3px_0px_rgba(201,168,76,0.25)]
+                shadow-[3px_3px_0px_rgba(210,176,90,0.25)]
               "
             >
               <span
@@ -388,7 +388,7 @@ const Navbar = () => {
               "
               style={{
                 background:
-                  "radial-gradient(circle at top, rgba(201,168,76,0.08) 0%, transparent 70%)",
+                  "radial-gradient(circle at top, rgba(210,176,90,0.08) 0%, transparent 70%)",
               }}
             />
 

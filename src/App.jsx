@@ -73,7 +73,7 @@ function Navbar() {
       transition: 'all 0.4s ease',
       background: scrolled ? 'rgba(8,8,8,0.92)' : 'transparent',
       backdropFilter: scrolled ? 'blur(20px)' : 'none',
-      borderBottom: scrolled ? '1px solid rgba(201,168,76,0.1)' : '1px solid transparent',
+      borderBottom: scrolled ? '1px solid rgba(210,176,90,0.1)' : '1px solid transparent',
       padding: scrolled ? '14px 0' : '22px 0',
     }}>
       <div className="site-nav-inner">
@@ -91,7 +91,7 @@ function Navbar() {
           {links.map(l => (
             <li key={l}>
               <a href={`#${l.toLowerCase()}`} className="nav-link"
-                onMouseEnter={e => e.target.style.color = '#c9a84c'}
+                onMouseEnter={e => e.target.style.color = '#d2b05a'}
                 onMouseLeave={e => e.target.style.color = '#6b6b6b'}
               >{l}</a>
             </li>
@@ -101,7 +101,7 @@ function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex nav-actions">
           <a href="#" className="nav-link nav-link-light"
-            onMouseEnter={e => e.target.style.color = '#c9a84c'}
+            onMouseEnter={e => e.target.style.color = '#d2b05a'}
             onMouseLeave={e => e.target.style.color = '#6b6b6b'}
           >Sign In</a>
           <button className="neopop nav-action-btn">Get Invite</button>
@@ -120,7 +120,7 @@ function Navbar() {
         maxHeight: open ? 300 : 0, overflow: 'hidden',
         transition: 'max-height 0.4s ease',
         background: 'rgba(8,8,8,0.98)',
-        borderTop: open ? '1px solid rgba(201,168,76,0.1)' : 'none',
+        borderTop: open ? '1px solid rgba(210,176,90,0.1)' : 'none',
       }}>
         <div className="nav-mobile-menu">
           {links.map(l => (
@@ -155,24 +155,24 @@ function Hero() {
       <div ref={orbRef} style={{
         position: 'absolute', top: '35%', left: '50%', marginLeft: -300,
         width: 600, height: 600, borderRadius: '50%',
-        background: 'radial-gradient(circle, rgba(201,168,76,0.1) 0%, rgba(201,168,76,0.03) 50%, transparent 70%)',
+        background: 'radial-gradient(circle, rgba(210,176,90,0.1) 0%, rgba(210,176,90,0.03) 50%, transparent 70%)',
         filter: 'blur(60px)', pointerEvents: 'none', transition: 'transform 0.8s ease',
       }} />
 
       {/* Extra orbs */}
-      <div style={{ position: 'absolute', bottom: 100, left: -100, width: 400, height: 400, borderRadius: '50%', background: 'radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 70%)', filter: 'blur(80px)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', bottom: 100, left: -100, width: 400, height: 400, borderRadius: '50%', background: 'radial-gradient(circle, rgba(210,176,90,0.07) 0%, transparent 70%)', filter: 'blur(80px)', pointerEvents: 'none' }} />
       <div style={{ position: 'absolute', top: 150, right: -50, width: 300, height: 300, borderRadius: '50%', background: 'radial-gradient(circle, rgba(232,201,109,0.06) 0%, transparent 70%)', filter: 'blur(60px)', pointerEvents: 'none' }} />
 
       {/* Grid */}
       <div style={{
         position: 'absolute', inset: 0, pointerEvents: 'none', opacity: 0.025,
-        backgroundImage: 'linear-gradient(rgba(201,168,76,1) 1px, transparent 1px), linear-gradient(90deg, rgba(201,168,76,1) 1px, transparent 1px)',
+        backgroundImage: 'linear-gradient(rgba(210,176,90,1) 1px, transparent 1px), linear-gradient(90deg, rgba(210,176,90,1) 1px, transparent 1px)',
         backgroundSize: '90px 90px',
       }} />
 
       {/* Diagonal accent lines */}
-      <div style={{ position: 'absolute', top: 0, left: '20%', width: 1, height: '40%', background: 'linear-gradient(to bottom, transparent, rgba(201,168,76,0.2), transparent)', pointerEvents: 'none' }} />
-      <div style={{ position: 'absolute', top: '20%', right: '15%', width: 1, height: '50%', background: 'linear-gradient(to bottom, transparent, rgba(201,168,76,0.15), transparent)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', top: 0, left: '20%', width: 1, height: '40%', background: 'linear-gradient(to bottom, transparent, rgba(210,176,90,0.2), transparent)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', top: '20%', right: '15%', width: 1, height: '50%', background: 'linear-gradient(to bottom, transparent, rgba(210,176,90,0.15), transparent)', pointerEvents: 'none' }} />
 
       <div className="hero-badge">
         <FiStar className="hero-badge-icon" />
@@ -189,7 +189,7 @@ function Hero() {
         </h1>
 
         <p className="hero-copy">
-          India's most rewarding platform for <span style={{ color: '#c9a84c' }}>creditworthy</span> individuals. Pay bills, earn rewards, own your score.
+          India's most rewarding platform for <span style={{ color: '#d2b05a' }}>creditworthy</span> individuals. Pay bills, earn rewards, own your score.
         </p>
 
         <div className="hero-cta-group">
@@ -201,7 +201,7 @@ function Hero() {
       {/* Floating card */}
       <div className="hero-card animate-float">
         <div className="glass-panel" style={{ padding: '20px 24px', display: 'flex', alignItems: 'center', gap: 16, minWidth: 280 }}>
-          <div style={{ width: 44, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ width: 44, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <span style={{ fontSize: 8, fontFamily: "'JetBrains Mono', monospace", fontWeight: 500, color: '#000', letterSpacing: 2 }}>CRED</span>
           </div>
           <div>
@@ -218,7 +218,7 @@ function Hero() {
       {/* Scroll indicator */}
       <div style={{ position: 'absolute', bottom: 36, left: '50%', transform: 'translateX(-50%)', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, opacity: 0.4 }}>
         <span style={{ fontSize: 9, letterSpacing: '0.3em', color: '#6b6b6b', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>Scroll</span>
-        <div style={{ width: 1, height: 48, background: 'linear-gradient(to bottom, #c9a84c, transparent)', animation: 'pulse 2s infinite' }} />
+        <div style={{ width: 1, height: 48, background: 'linear-gradient(to bottom, #d2b05a, transparent)', animation: 'pulse 2s infinite' }} />
       </div>
     </section>
   )
@@ -255,8 +255,8 @@ function About() {
         {/* Left */}
         <div className="reveal-left">
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 28 }}>
-            <div style={{ width: 40, height: 1, background: 'linear-gradient(to right, #c9a84c, transparent)' }} />
-            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>About CRED</span>
+            <div style={{ width: 40, height: 1, background: 'linear-gradient(to right, #d2b05a, transparent)' }} />
+            <span style={{ color: '#d2b05a', fontSize: 10, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>About CRED</span>
           </div>
           <h2 style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 300, fontSize: 'clamp(48px,6vw,80px)', lineHeight: 0.95, marginBottom: 28, color: '#f0ede6' }}>
             Exclusivity<br />is <span className="shimmer">earned,</span><br />not given.
@@ -268,8 +268,8 @@ function About() {
             In return, we reward responsible financial behaviour with premium experiences, real cashbacks, and exclusive access to brands you won't find anywhere else.
           </p>
           <div style={{ marginTop: 36, display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div style={{ width: 32, height: 1, background: '#c9a84c' }} />
-            <span style={{ color: '#c9a84c', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>Invitation Only</span>
+            <div style={{ width: 32, height: 1, background: '#d2b05a' }} />
+            <span style={{ color: '#d2b05a', fontSize: 10, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>Invitation Only</span>
           </div>
         </div>
 
@@ -283,20 +283,20 @@ function About() {
           </div>
           {/* Card 2 */}
           <div className="glass" style={{ position: 'absolute', borderRadius: 16, padding: 24, width: 300, transform: 'rotate(-4deg) translateY(12px)', zIndex: 2, opacity: 0.75 }}>
-            <div style={{ width: 36, height: 24, background: 'rgba(201,168,76,0.25)', borderRadius: 4, marginBottom: 16 }} />
-            <div style={{ height: 8, background: 'rgba(201,168,76,0.15)', borderRadius: 4, width: '65%', marginBottom: 8 }} />
-            <div style={{ height: 8, background: 'rgba(201,168,76,0.1)', borderRadius: 4, width: '45%' }} />
+            <div style={{ width: 36, height: 24, background: 'rgba(210,176,90,0.25)', borderRadius: 4, marginBottom: 16 }} />
+            <div style={{ height: 8, background: 'rgba(210,176,90,0.15)', borderRadius: 4, width: '65%', marginBottom: 8 }} />
+            <div style={{ height: 8, background: 'rgba(210,176,90,0.1)', borderRadius: 4, width: '45%' }} />
           </div>
           {/* Card 1 — front */}
           <div style={{
             position: 'relative', borderRadius: 16, padding: 28, width: 300, zIndex: 3,
-            background: 'linear-gradient(135deg, rgba(201,168,76,0.14) 0%, rgba(22,22,22,0.95) 100%)',
-            border: '1px solid rgba(201,168,76,0.25)',
-            boxShadow: '0 0 60px rgba(201,168,76,0.1)',
+            background: 'linear-gradient(135deg, rgba(210,176,90,0.14) 0%, rgba(22,22,22,0.95) 100%)',
+            border: '1px solid rgba(210,176,90,0.25)',
+            boxShadow: '0 0 60px rgba(210,176,90,0.1)',
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 36 }}>
-              <div style={{ width: 42, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', boxShadow: '0 0 14px rgba(201,168,76,0.4)' }} />
-              <span style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', fontFamily: "'JetBrains Mono', monospace" }}>CRED</span>
+              <div style={{ width: 42, height: 30, borderRadius: 6, background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)', boxShadow: '0 0 14px rgba(210,176,90,0.4)' }} />
+              <span style={{ color: '#d2b05a', fontSize: 9, letterSpacing: '0.3em', fontFamily: "'JetBrains Mono', monospace" }}>CRED</span>
             </div>
             <div style={{ fontFamily: "'JetBrains Mono', monospace", color: '#f0ede6', fontSize: 13, letterSpacing: '0.2em', marginBottom: 20 }}>•••• •••• •••• 4291</div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
@@ -304,7 +304,7 @@ function About() {
                 <div style={{ color: '#6b6b6b', fontSize: 8, letterSpacing: '0.25em', textTransform: 'uppercase', marginBottom: 4, fontFamily: "'JetBrains Mono', monospace" }}>Member</div>
                 <div style={{ color: '#f0ede6', fontSize: 12, fontWeight: 500 }}>Arjun Mehta</div>
               </div>
-              <div style={{ color: 'rgba(201,168,76,0.5)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 2 }}>VISA</div>
+              <div style={{ color: 'rgba(210,176,90,0.5)', fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 2 }}>VISA</div>
             </div>
           </div>
         </div>
@@ -384,12 +384,12 @@ function NeoPOPSection() {
           <p className="section-copy">CRED's NeoPOP design system redefines premium digital interactions. Bold shadows, crisp edges, deliberate depth — every tap feels satisfying.</p>
           {['3D layered button system', 'Glassmorphism overlays', 'Micro-interaction feedback', 'Dark-first design language'].map((item, i) => (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-              <div style={{ width: 5, height: 5, background: '#c9a84c', borderRadius: '50%' }} />
+              <div style={{ width: 5, height: 5, background: '#d2b05a', borderRadius: '50%' }} />
               <span style={{ color: '#6b6b6b', fontSize: 14, fontWeight: 300 }}>{item}</span>
             </div>
           ))}
           <button className="neopop" style={{
-            marginTop: 32, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)',
+            marginTop: 32, background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)',
             color: '#000', border: 'none', padding: '14px 32px',
             fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase',
             fontFamily: "'JetBrains Mono', monospace", fontWeight: 500, borderRadius: 2,
@@ -400,18 +400,18 @@ function NeoPOPSection() {
         <div ref={ref} className="reveal-right" style={{ position: 'relative' }}>
           <div style={{
             borderRadius: 24, padding: 28,
-            background: 'linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(15,15,15,0.98) 100%)',
-            border: '1px solid rgba(201,168,76,0.2)',
-            boxShadow: '0 0 80px rgba(201,168,76,0.08)',
+            background: 'linear-gradient(135deg, rgba(210,176,90,0.08) 0%, rgba(15,15,15,0.98) 100%)',
+            border: '1px solid rgba(210,176,90,0.2)',
+            boxShadow: '0 0 80px rgba(210,176,90,0.08)',
           }}>
             {/* Reward alert */}
             <div style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '14px 16px', background: '#161616', border: '1px solid #242424', borderRadius: 12, marginBottom: 24 }}>
-              <div style={{ width: 38, height: 38, borderRadius: '50%', background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontSize: 14, boxShadow: '0 0 16px rgba(201,168,76,0.3)' }}><FiStar /></div>
+              <div style={{ width: 38, height: 38, borderRadius: '50%', background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontSize: 14, boxShadow: '0 0 16px rgba(210,176,90,0.3)' }}><FiStar /></div>
               <div style={{ flex: 1 }}>
                 <p style={{ color: '#f0ede6', fontSize: 13, fontWeight: 500 }}>Reward Unlocked!</p>
                 <p style={{ color: '#6b6b6b', fontSize: 11, marginTop: 2, fontFamily: "'JetBrains Mono', monospace" }}>250 CRED coins credited</p>
               </div>
-              <span style={{ color: '#c9a84c', fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, fontWeight: 600 }}>+250</span>
+              <span style={{ color: '#d2b05a', fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, fontWeight: 600 }}>+250</span>
             </div>
 
             {/* Coin display */}
@@ -436,12 +436,12 @@ function NeoPOPSection() {
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
                 <span style={{ color: '#6b6b6b', fontSize: 10, letterSpacing: '0.2em', fontFamily: "'JetBrains Mono', monospace", textTransform: 'uppercase' }}>Credit Score</span>
-                <span style={{ color: '#c9a84c', fontSize: 10, fontFamily: "'JetBrains Mono', monospace" }}>812 / 900</span>
+                <span style={{ color: '#d2b05a', fontSize: 10, fontFamily: "'JetBrains Mono', monospace" }}>812 / 900</span>
               </div>
               <div style={{ height: 4, background: '#1c1c1c', borderRadius: 2, overflow: 'hidden' }}>
                 <div style={{
                   height: '100%', borderRadius: 2,
-                  background: 'linear-gradient(90deg,#c9a84c,#e8c96d)',
+                  background: 'linear-gradient(90deg,#d2b05a,#f0cc6f)',
                   width: visible ? '90%' : '0%',
                   transition: 'width 1.8s cubic-bezier(0.22,1,0.36,1)',
                 }} />
@@ -452,11 +452,11 @@ function NeoPOPSection() {
           {/* Floating badges */}
           <div className="animate-float" style={{
             position: 'absolute', top: -16, right: -16,
-            background: 'rgba(8,8,8,0.95)', border: '1px solid rgba(201,168,76,0.25)',
+            background: 'rgba(8,8,8,0.95)', border: '1px solid rgba(210,176,90,0.25)',
             borderRadius: 12, padding: '12px 16px', backdropFilter: 'blur(20px)',
           }}>
             <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', fontFamily: "'JetBrains Mono', monospace", textTransform: 'uppercase' }}>Cashback</div>
-            <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 24, fontWeight: 400, color: '#c9a84c' }}>₹840</div>
+            <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 24, fontWeight: 400, color: '#d2b05a' }}>₹840</div>
           </div>
           <div className="animate-float-slow" style={{
             position: 'absolute', bottom: -16, left: -16,
@@ -516,7 +516,7 @@ function Testimonials() {
               padding: 24, textAlign: 'center',
               transition: 'border-color 0.3s',
             }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(201,168,76,0.3)'}
+              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(210,176,90,0.3)'}
               onMouseLeave={e => e.currentTarget.style.borderColor = '#1c1c1c'}
             >
               <div className="shimmer" style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 42, fontWeight: 300, lineHeight: 1 }}>
@@ -534,7 +534,7 @@ function Testimonials() {
               background: '#0f0f0f', border: '1px solid #1c1c1c', borderRadius: 16, padding: 28,
               transition: 'all 0.3s',
             }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(201,168,76,0.25)'; e.currentTarget.style.background = 'rgba(201,168,76,0.03)' }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(210,176,90,0.25)'; e.currentTarget.style.background = 'rgba(210,176,90,0.03)' }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = '#1c1c1c'; e.currentTarget.style.background = '#0f0f0f' }}
             >
               <div style={{ display: 'flex', gap: 2, marginBottom: 16 }}>
@@ -544,7 +544,7 @@ function Testimonials() {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, borderTop: '1px solid #1c1c1c', paddingTop: 20 }}>
                 <div style={{
                   width: 38, height: 38, borderRadius: '50%',
-                  background: 'linear-gradient(135deg,#c9a84c,#e8c96d)',
+                  background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   color: '#000', fontSize: 11, fontWeight: 600,
                 }}>{t.avatar}</div>
@@ -568,13 +568,13 @@ function Testimonials() {
               padding: '20px 32px', display: 'flex', alignItems: 'center', gap: 18,
               minWidth: 240, transition: 'border-color 0.3s', cursor: 'pointer',
             }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(201,168,76,0.3)'}
+              onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(210,176,90,0.3)'}
               onMouseLeave={e => e.currentTarget.style.borderColor = '#1c1c1c'}
             >
               <span style={{ fontSize: 28 }}>{s.icon}</span>
               <div>
                 <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.25em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", marginBottom: 4 }}>{s.store}</div>
-                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 28, fontWeight: 400, color: '#f0ede6' }}>{s.rating} <span style={{ color: '#c9a84c' }}>★</span></div>
+                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 28, fontWeight: 400, color: '#f0ede6' }}>{s.rating} <span style={{ color: '#d2b05a' }}>★</span></div>
                 <div style={{ color: '#6b6b6b', fontSize: 10, fontFamily: "'JetBrains Mono', monospace", marginTop: 2 }}>{s.reviews}</div>
               </div>
             </div>
@@ -599,7 +599,7 @@ function Security() {
   return (
     <section id="security" style={{ padding: '120px 24px', background: '#0a0a0a', position: 'relative', overflow: 'hidden' }}>
       {/* Radial glow */}
-      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', width: 700, height: 700, borderRadius: '50%', background: 'radial-gradient(circle, rgba(201,168,76,0.05) 0%, transparent 65%)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)', width: 700, height: 700, borderRadius: '50%', background: 'radial-gradient(circle, rgba(210,176,90,0.05) 0%, transparent 65%)', pointerEvents: 'none' }} />
 
       <div style={{ maxWidth: 1280, margin: '0 auto', position: 'relative', zIndex: 1 }}>
         <div className="reveal section-header">
@@ -614,12 +614,12 @@ function Security() {
               background: '#0f0f0f', border: '1px solid #1c1c1c', borderRadius: 16, padding: 28,
               transition: 'all 0.35s',
             }}
-              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(201,168,76,0.25)'; e.currentTarget.style.background = 'rgba(201,168,76,0.03)'; e.currentTarget.style.transform = 'translateY(-4px)' }}
+              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(210,176,90,0.25)'; e.currentTarget.style.background = 'rgba(210,176,90,0.03)'; e.currentTarget.style.transform = 'translateY(-4px)' }}
               onMouseLeave={e => { e.currentTarget.style.borderColor = '#1c1c1c'; e.currentTarget.style.background = '#0f0f0f'; e.currentTarget.style.transform = 'translateY(0)' }}
             >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 16 }}>
                 <span style={{ fontSize: 28 }}>{f.icon}</span>
-                <span style={{ fontSize: 8, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", color: '#c9a84c', border: '1px solid rgba(201,168,76,0.25)', background: 'rgba(201,168,76,0.06)', padding: '4px 10px', borderRadius: 2 }}>{f.tag}</span>
+                <span style={{ fontSize: 8, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", color: '#d2b05a', border: '1px solid rgba(210,176,90,0.25)', background: 'rgba(210,176,90,0.06)', padding: '4px 10px', borderRadius: 2 }}>{f.tag}</span>
               </div>
               <h3 style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 22, fontWeight: 400, color: '#f0ede6', marginBottom: 10 }}>{f.title}</h3>
               <p style={{ color: '#6b6b6b', fontSize: 14, lineHeight: 1.7, fontWeight: 300 }}>{f.desc}</p>
@@ -632,7 +632,7 @@ function Security() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(140px,1fr))', gap: 32 }}>
             {[['PCI DSS', 'Level 1 Certified'], ['ISO 27001', 'Info Security'], ['RBI', 'Compliant & Licensed'], ['SOC 2', 'Type II Audited']].map(([t, s], i) => (
               <div key={i} style={{ textAlign: 'center' }}>
-                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 400, fontSize: 22, color: '#c9a84c', marginBottom: 4 }}>{t}</div>
+                <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 400, fontSize: 22, color: '#d2b05a', marginBottom: 4 }}>{t}</div>
                 <div style={{ color: '#6b6b6b', fontSize: 9, letterSpacing: '0.2em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace" }}>{s}</div>
               </div>
             ))}
@@ -653,14 +653,14 @@ function Footer() {
   }
   return (
     <footer style={{ borderTop: '1px solid #1c1c1c', padding: '80px 24px 40px', background: '#080808', position: 'relative', overflow: 'hidden' }}>
-      <div style={{ position: 'absolute', bottom: 0, left: '50%', transform: 'translateX(-50%)', width: 600, height: 200, background: 'radial-gradient(ellipse, rgba(201,168,76,0.05) 0%, transparent 70%)', pointerEvents: 'none' }} />
+      <div style={{ position: 'absolute', bottom: 0, left: '50%', transform: 'translateX(-50%)', width: 600, height: 200, background: 'radial-gradient(ellipse, rgba(210,176,90,0.05) 0%, transparent 70%)', pointerEvents: 'none' }} />
       <div style={{ maxWidth: 1280, margin: '0 auto', position: 'relative', zIndex: 1 }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(140px,1fr))', gap: 48, marginBottom: 64 }}>
 
           {/* Brand */}
           <div style={{ gridColumn: 'span 2' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 20 }}>
-              <div style={{ width: 34, height: 34, borderRadius: 6, background: 'linear-gradient(135deg,#c9a84c,#e8c96d)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 20px rgba(201,168,76,0.3)' }}>
+              <div style={{ width: 34, height: 34, borderRadius: 6, background: 'linear-gradient(135deg,#d2b05a,#f0cc6f)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 20px rgba(210,176,90,0.3)' }}>
                 <span style={{ color: '#000', fontFamily: "'Space Grotesk', sans-serif", fontWeight: 700, fontSize: 16 }}>C</span>
               </div>
               <span style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600, fontSize: 22, color: '#f0ede6', letterSpacing: 4 }}>CRED</span>
@@ -680,7 +680,7 @@ function Footer() {
                   borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center',
                   color: '#6b6b6b', fontSize: 18, textDecoration: 'none', transition: 'all 0.3s',
                 }}
-                  onMouseEnter={e => { e.currentTarget.style.color = '#c9a84c'; e.currentTarget.style.borderColor = 'rgba(201,168,76,0.3)' }}
+                  onMouseEnter={e => { e.currentTarget.style.color = '#d2b05a'; e.currentTarget.style.borderColor = 'rgba(210,176,90,0.3)' }}
                   onMouseLeave={e => { e.currentTarget.style.color = '#6b6b6b'; e.currentTarget.style.borderColor = '#1c1c1c' }}
                 >{social.icon}</a>
               ))}
@@ -690,7 +690,7 @@ function Footer() {
           {/* Links */}
           {Object.entries(cols).map(([section, links]) => (
             <div key={section}>
-              <h4 style={{ color: '#c9a84c', fontSize: 9, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", marginBottom: 20 }}>{section}</h4>
+              <h4 style={{ color: '#d2b05a', fontSize: 9, letterSpacing: '0.3em', textTransform: 'uppercase', fontFamily: "'JetBrains Mono', monospace", marginBottom: 20 }}>{section}</h4>
               <ul style={{ listStyle: 'none' }}>
                 {links.map(link => (
                   <li key={link} style={{ marginBottom: 12 }}>
@@ -717,7 +717,7 @@ function Footer() {
                 padding: '10px 20px', display: 'flex', alignItems: 'center', gap: 8,
                 textDecoration: 'none', transition: 'border-color 0.3s',
               }}
-                onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(201,168,76,0.3)'}
+                onMouseEnter={e => e.currentTarget.style.borderColor = 'rgba(210,176,90,0.3)'}
                 onMouseLeave={e => e.currentTarget.style.borderColor = '#1c1c1c'}
               >
                 <span style={{ fontSize: 18, display: 'inline-flex' }}>{s.icon}</span>
@@ -752,6 +752,7 @@ export default function App() {
     </div>
   )
 }
+
 
 
 

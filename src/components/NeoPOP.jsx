@@ -180,7 +180,7 @@ const NeoPOP = () => {
         "
         style={{
           background:
-            "radial-gradient(circle at top right, rgba(201,168,76,0.08) 0%, transparent 55%)",
+            "radial-gradient(circle at top right, rgba(210,176,90,0.08) 0%, transparent 55%)",
         }}
       />
 
@@ -337,7 +337,7 @@ const NeoPOP = () => {
               "
               style={{
                 background:
-                  "linear-gradient(135deg, rgba(201,168,76,0.05) 0%, rgba(18,18,18,0.98) 100%)",
+                  "linear-gradient(135deg, rgba(210,176,90,0.05) 0%, rgba(18,18,18,0.98) 100%)",
               }}
             >
 
@@ -359,7 +359,7 @@ const NeoPOP = () => {
                 whileHover={{
                   scale: 1.015,
                   borderColor:
-                    "rgba(201,168,76,0.35)",
+                    "rgba(210,176,90,0.35)",
                 }}
                 className="
                   relative z-10
@@ -484,7 +484,7 @@ const NeoPOP = () => {
                     whileHover={{
                       y: -3,
                       boxShadow:
-                        "4px 4px 0px rgba(201,168,76,0.7)",
+                        "4px 4px 0px rgba(210,176,90,0.7)",
                     }}
                     whileTap={{
                       scale: 0.97,
@@ -502,7 +502,7 @@ const NeoPOP = () => {
                     "
                     style={{
                       boxShadow:
-                        "3px 3px 0px rgba(201,168,76,0.18)",
+                        "3px 3px 0px rgba(210,176,90,0.18)",
                     }}
                   >
                     {label}

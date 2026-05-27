@@ -38,8 +38,8 @@ const ButtonComponent = ({
       bg-gradient-to-br
       from-[var(--gold-light)]
       to-[var(--gold)]
-      shadow-[4px_4px_0px_rgba(201,168,76,0.3)]
-      hover:shadow-[6px_6px_0px_rgba(201,168,76,0.4)]
+      shadow-[4px_4px_0px_rgba(210,176,90,0.3)]
+      hover:shadow-[6px_6px_0px_rgba(210,176,90,0.4)]
       active:translate-x-[2px]
       active:translate-y-[2px]
       active:shadow-none

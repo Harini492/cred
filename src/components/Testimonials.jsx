@@ -142,7 +142,7 @@ const Testimonials = () => {
           "
           style={{
             background:
-              "radial-gradient(circle, rgba(201,168,76,0.35) 0%, transparent 70%)",
+              "radial-gradient(circle, rgba(210,176,90,0.35) 0%, transparent 70%)",
           }}
         />
       </div>
@@ -267,7 +267,7 @@ const Testimonials = () => {
                     h-full cursor-pointer border transition-all duration-300
                     ${
                       isActive
-                        ? "border-[var(--gold)]/40 scale-[1.01] shadow-[0_20px_50px_rgba(201,168,76,0.08)]"
+                        ? "border-[var(--gold)]/40 scale-[1.01] shadow-[0_20px_50px_rgba(210,176,90,0.08)]"
                         : "border-[var(--border)]/40"
                     }
                   `}

@@ -145,8 +145,8 @@ const Hero = () => {
         "
         style={{
           backgroundImage: `
-            linear-gradient(rgba(201,168,76,0.7) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(201,168,76,0.7) 1px, transparent 1px)
+            linear-gradient(rgba(210,176,90,0.7) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(210,176,90,0.7) 1px, transparent 1px)
           `,
           backgroundSize: "80px 80px",
         }}
@@ -161,7 +161,7 @@ const Hero = () => {
             x: orbX,
             y: orbY,
             background:
-              "radial-gradient(circle, rgba(201,168,76,0.14) 0%, rgba(201,168,76,0.03) 45%, transparent 70%)",
+              "radial-gradient(circle, rgba(210,176,90,0.14) 0%, rgba(210,176,90,0.03) 45%, transparent 70%)",
             filter: "blur(60px)",
           }}
           className="
@@ -205,7 +205,7 @@ const Hero = () => {
           "
           style={{
             background:
-              "radial-gradient(circle, rgba(201,168,76,0.16) 0%, transparent 70%)",
+              "radial-gradient(circle, rgba(210,176,90,0.16) 0%, transparent 70%)",
           }}
         />
       </div>
@@ -406,7 +406,7 @@ const Hero = () => {
               "
               style={{
                 background:
-                  "radial-gradient(circle at top, rgba(201,168,76,0.10) 0%, transparent 70%)",
+                  "radial-gradient(circle at top, rgba(210,176,90,0.10) 0%, transparent 70%)",
               }}
             />
 

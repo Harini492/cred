@@ -17,9 +17,9 @@
   --text-secondary: #6b6b6b;
 
   /* Accent */
-  --accent-primary: #c9a84c;
-  --accent-light: #e8c96d;
-  --accent-dark: #9a7a2e;
+  --accent-primary: #d2b05a;
+  --accent-light: #f0cc6f;
+  --accent-dark: #8f7435;
 
   /* Borders */
   --border-primary: rgba(201, 168, 76, 0.15);
@@ -458,35 +458,35 @@ svg {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #c9a84c, #e8c96d);
+  background: linear-gradient(135deg, #d2b05a, #f0cc6f);
   color: #000;
   border: none;
   box-shadow:
-    0 10px 30px rgba(201,168,76,0.2),
+    0 10px 30px rgba(210,176,90,0.2),
     inset 0 1px 0 rgba(255,255,255,0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
   box-shadow:
-    0 20px 40px rgba(201,168,76,0.25),
+    0 20px 40px rgba(210,176,90,0.25),
     inset 0 1px 0 rgba(255,255,255,0.3);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #c9a84c;
-  border: 1px solid rgba(201,168,76,0.3);
+  color: #d2b05a;
+  border: 1px solid rgba(210,176,90,0.3);
 }
 
 .btn-secondary:hover {
-  background: rgba(201,168,76,0.08);
-  border-color: #c9a84c;
+  background: rgba(210,176,90,0.08);
+  border-color: #d2b05a;
 }
 
 .site-shell {
   min-height: 100vh;
-  background: radial-gradient(circle at top, rgba(201,168,76,0.08), transparent 18%), radial-gradient(circle at 80% 10%, rgba(201,168,76,0.04), transparent 30%), linear-gradient(180deg, #060607 0%, #08080a 38%, #0f1012 100%);
+  background: radial-gradient(circle at top, rgba(210,176,90,0.08), transparent 18%), radial-gradient(circle at 80% 10%, rgba(210,176,90,0.04), transparent 30%), linear-gradient(180deg, #060607 0%, #08080a 38%, #0f1012 100%);
   color: var(--text-primary);
 }
 
@@ -504,7 +504,7 @@ svg {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at top right, rgba(201,168,76,0.08), transparent 25%);
+  background: radial-gradient(circle at top right, rgba(210,176,90,0.08), transparent 25%);
   pointer-events: none;
   z-index: 0;
 }
@@ -516,9 +516,9 @@ svg {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  border: 1px solid rgba(201,168,76,0.22);
-  background: rgba(201,168,76,0.06);
-  color: #c9a84c;
+  border: 1px solid rgba(210,176,90,0.22);
+  background: rgba(210,176,90,0.06);
+  color: #d2b05a;
   font-size: 10px;
   letter-spacing: 0.35em;
   text-transform: uppercase;
@@ -593,7 +593,7 @@ svg {
 }
 
 .section-topline {
-  color: #c9a84c;
+  color: #d2b05a;
   font-size: 10px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -640,11 +640,11 @@ svg {
   width: 34px;
   height: 34px;
   border-radius: 6px;
-  background: linear-gradient(135deg, #c9a84c, #e8c96d);
+  background: linear-gradient(135deg, #d2b05a, #f0cc6f);
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 20px rgba(201,168,76,0.4);
+  box-shadow: 0 0 20px rgba(210,176,90,0.4);
 }
 
 .site-logo-mark span {
@@ -691,7 +691,7 @@ svg {
 }
 
 .nav-action-btn {
-  background: linear-gradient(135deg, #c9a84c, #e8c96d);
+  background: linear-gradient(135deg, #d2b05a, #f0cc6f);
   color: #000;
   border: none;
   padding: 10px 24px;
@@ -718,7 +718,7 @@ svg {
   display: block;
   width: 24px;
   height: 1px;
-  background: #c9a84c;
+  background: #d2b05a;
   transition: all 0.3s ease;
 }
 
@@ -768,31 +768,31 @@ svg {
 
 .hero-copy span strong,
 .hero-copy span em {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy a {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy-mark {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy .accent {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy strong {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy em {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy .highlight {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .hero-copy {
@@ -817,7 +817,7 @@ svg {
 
 .nav-link:hover,
 .nav-mobile-link:hover {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .nav-action-btn:hover {
@@ -864,7 +864,7 @@ svg {
 
 .hero-copy strong,
 .hero-copy .accent {
-  color: #c9a84c;
+  color: #d2b05a;
 }
 
 .nav-mobile-menu {
@@ -900,7 +900,7 @@ svg {
 
 .feature-card {
   background: linear-gradient(145deg, rgba(20,20,20,0.95), rgba(10,10,10,0.95));
-  border: 1px solid rgba(201,168,76,0.12);
+  border: 1px solid rgba(210,176,90,0.12);
   border-radius: 24px;
   padding: 32px;
   transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
@@ -920,7 +920,7 @@ svg {
   background: linear-gradient(
     120deg,
     transparent,
-    rgba(201,168,76,0.06),
+    rgba(210,176,90,0.06),
     transparent
   );
 
@@ -936,11 +936,11 @@ svg {
 .feature-card:hover {
   transform: translateY(-12px) scale(1.02);
 
-  border-color: rgba(201,168,76,0.4);
+  border-color: rgba(210,176,90,0.4);
 
   box-shadow:
-    0 20px 60px rgba(201,168,76,0.12),
-    0 0 40px rgba(201,168,76,0.08);
+    0 20px 60px rgba(210,176,90,0.12),
+    0 0 40px rgba(210,176,90,0.08);
 }
 
 .feature-card-top {
@@ -964,8 +964,8 @@ svg {
 }
 
 .feature-card:hover .feature-card-icon {
-  background: rgba(201,168,76,0.12);
-  border-color: rgba(201,168,76,0.25);
+  background: rgba(210,176,90,0.12);
+  border-color: rgba(210,176,90,0.25);
 }
 
 .feature-card-tag {
@@ -973,9 +973,9 @@ svg {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-family: var(--font-mono);
-  color: #c9a84c;
-  border: 1px solid rgba(201,168,76,0.25);
-  background: rgba(201,168,76,0.06);
+  color: #d2b05a;
+  border: 1px solid rgba(210,176,90,0.25);
+  background: rgba(210,176,90,0.06);
   padding: 4px 10px;
   border-radius: 2px;
 }
@@ -989,7 +989,7 @@ svg {
 }
 
 .feature-card-subtitle {
-  color: #c9a84c;
+  color: #d2b05a;
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1010,7 +1010,7 @@ svg {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: #c9a84c;
+  color: #d2b05a;
   font-size: 10px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -1037,7 +1037,7 @@ svg {
 }
 
 .feature-sub {
-  color: #c9a84c;
+  color: #d2b05a;
 
   font-size: 11px;
 
@@ -1063,7 +1063,7 @@ svg {
 
   border: none;
 
-  color: #c9a84c;
+  color: #d2b05a;
 
   letter-spacing: 0.18em;
 
@@ -1079,3 +1079,4 @@ svg {
 .feature-btn:hover {
   transform: translateX(6px);
 }
+

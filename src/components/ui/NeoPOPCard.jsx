@@ -56,12 +56,12 @@ const NeoPOPCardComponent = ({
   const shadows = useMemo(() => {
     const defaultShadow =
       accent === "var(--gold)"
-        ? "4px 4px 0px rgba(201,168,76,0.18), 8px 8px 0px rgba(0,0,0,0.03)"
+        ? "4px 4px 0px rgba(210,176,90,0.18), 8px 8px 0px rgba(0,0,0,0.03)"
         : `4px 4px 0px ${accent}25, 8px 8px 0px rgba(0,0,0,0.03)`;
 
     const hoverShadow =
       accent === "var(--gold)"
-        ? "8px 8px 0px rgba(201,168,76,0.32), 16px 16px 0px rgba(0,0,0,0.05)"
+        ? "8px 8px 0px rgba(210,176,90,0.32), 16px 16px 0px rgba(0,0,0,0.05)"
         : `8px 8px 0px ${accent}50, 16px 16px 0px rgba(0,0,0,0.05)`;
 
     return {
@@ -128,7 +128,7 @@ const NeoPOPCardComponent = ({
                 circle at top left,
                 ${
                   accent === "var(--gold)"
-                    ? "rgba(201,168,76,0.14)"
+                    ? "rgba(210,176,90,0.14)"
                     : `${accent}22`
                 } 0%,
                 transparent 68%
